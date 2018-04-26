@@ -1,0 +1,12 @@
+实际生产环境来管理python代码的工具
+它本身也是用python写的
+他是把程序可以把这个上面跑起来
+pip install gunicorn
+gunicorn -w4 wsgi:application  四个进程启动（四个worker）
+-c 数量
+-b 127.0.0.1:5000
+
+
+
+flake8
+pep8
